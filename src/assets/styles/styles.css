@@ -1,0 +1,284 @@
+body {
+    background-color: rgba(75,75,72,0.95);
+}
+
+.image {
+    opacity: 0.5 ;
+    width: 100%;
+    height: auto;
+    transition : all 1s;
+}
+
+.image:hover  {
+    opacity: 1 ;
+}
+
+.cardimg {
+    display: block;
+     width: 100%;
+     height: auto;
+ }
+
+.container1 {
+    position: relative;
+}
+.overlay1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(83,83,80,0.95);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.container1:hover .overlay1 {
+    height: 100%;
+}
+
+
+
+.container2 {
+    position: relative;
+}
+.overlay2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(83,83,80,0.95);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.container2:hover .overlay2 {
+    height: 100%;
+}
+
+
+.container3{
+    position: relative;
+}
+.overlay3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(83,83,80,0.95);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.container3:hover .overlay3 {
+    height: 100%;
+}
+
+
+.container4 {
+    position: relative;
+}
+.overlay4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(83,83,80,0.95);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.container4:hover .overlay4 {
+    height: 100%;
+}
+
+.footer{
+    background-color:rgba(83,83,80,0.95);
+}
+
+a {
+    color: white;
+    transition: .5s ease;
+}
+
+Link {
+    transition: all 0.5s;
+}
+
+a:hover{
+   color: white;
+    /*background-color: #5bc0de;*/
+    text-decoration: none;
+}
+
+
+.button {
+    color: #89ff50;
+}
+
+.vl {
+    border-left: 1px solid darkgrey;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.circle {
+    background: #f00;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.productImg{
+
+    margin-right: 20px;
+    margin-bottom: 20px;
+    opacity: 0.7 ;
+    width: 100px;
+    height: 100px;
+    transition : all 1s;
+}
+.order{
+    opacity: 0.9 ;
+    width: 25px;
+    height: 25px;
+}
+
+.productImg:hover{
+    opacity: 0.8 ;
+
+}
+
+.footer{
+    border-top:1px solid white;
+}
+
+.text{
+    padding: 30% 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.text2{
+    padding: 30% 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.up{
+    opacity: 0.5 ;
+    width: 25px;
+    height: 25px;
+    transition: all 0.5s;
+
+}
+
+.up:hover {
+    opacity: 1;
+}
+
+
+.footerContainer{
+
+    margin: 0 25%;
+
+    width: 50%;
+    height: 50px;
+    border: 2px solid  #5bc0de;
+}
+
+
+.logoFooter{
+
+    margin: 6% 40%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.margin{
+
+    margin: 0 40%;
+    font-size: 12px;
+
+
+}
+.margin2{
+
+    margin: 0 24%;
+    font-size: 14px;
+
+}
+
+
+.logoHeader{
+    margin: 6% 40%;
+    width: 40px;
+    height: 40px;
+    opacity: 0.4;
+    transition: all 0.5s;
+}
+.logoHeader:hover{
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+
+.cursor:hover{
+    cursor: pointer;
+
+}
+
+.loading{
+    margin: 0 50%;
+
+}
+
+.right{
+    margin-left: 30%;
+}
+
+.search{
+    width: 30px;
+    height: 30px;
+    /*border: 1px solid #5bc0de;*/
+}
+
+.searchImg{
+     width: 25px;
+     height: 25px;
+    opacity: 0.5;
+    transition: all 0.5s;
+
+}
+.searchImg:hover {
+    opacity: 0.7;
+    width: 30px;
+    height: 30px;
+}
+
+.container22{
+    margin: 0 5%;
+    width: 90%;
+    height:500px;
+    /*border: 1px solid #5bc0de;*/
+
+}
+
+
+
+.devider{
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    margin: 0 5%;
+
+}
